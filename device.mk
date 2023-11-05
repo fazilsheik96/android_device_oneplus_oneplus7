@@ -14,6 +14,7 @@ PRODUCT_PACKAGES += \
     AOSPAOnePlus7Frameworks \
     AOSPAOnePlus7SystemUI \
     OnePlus7Frameworks \
+    OnePlus7Settings \
     OnePlus7SettingsProvider \
     OnePlus7SystemUI
 
