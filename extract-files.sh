@@ -1,8 +1,7 @@
 #!/bin/bash
 #
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2020 The LineageOS Project
-#
+# SPDX-FileCopyrightText: 2016 The CyanogenMod Project
+# SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
 #
 
 # If we're being sourced by the common script that we called,
@@ -16,5 +15,6 @@ set -e
 export DEVICE=oneplus7
 export DEVICE_COMMON=sm8150-common
 export VENDOR=oneplus
+export VENDOR_COMMON=${VENDOR}
 
-"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+"./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"
