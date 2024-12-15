@@ -15,6 +15,10 @@ vendor/etc/acdbdata/adsp_avs_config.acdb
 # Audio
 vendor/lib/hw/audio.primary.msmnile.so
 
+# Bluetooth
+vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so;MODULE_SUFFIX=_oneplus;OVERRIDES=vendor.qti.hardware.btconfigstore@1.0;SYMLINK=system/lib64/vendor.qti.hardware.btconfigstore@1.0
+vendor/lib64/vendor.qti.hardware.btconfigstore@2.0.so;MODULE_SUFFIX=_oneplus;OVERRIDES=vendor.qti.hardware.btconfigstore@2.0;SYMLINK=system/lib64/vendor.qti.hardware.btconfigstore@2.0
+
 # Camera
 vendor/etc/camera/ashdr/iso617_4608x3456.ncf
 vendor/etc/camera/ashdr/ncf_pack.ncf
